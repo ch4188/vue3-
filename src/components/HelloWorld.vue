@@ -1,7 +1,7 @@
 <!--
  * @Description: 
  * @Date: 2023-05-09 10:11:03
- * @LastEditTime: 2023-05-09 15:57:41
+ * @LastEditTime: 2023-05-09 16:19:38
 -->
 <script setup lang="ts">
 import { ref } from 'vue';
@@ -11,6 +11,7 @@ defineProps<{ msg: string }>();
 const count = ref(0);
 const add = () => {
 	count.value += 1;
+	console.log(11111);
 	console.log(count.value);
 };
 </script>
