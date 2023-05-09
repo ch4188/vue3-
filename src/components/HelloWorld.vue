@@ -1,7 +1,7 @@
 <!--
  * @Description: 
  * @Date: 2023-05-09 10:11:03
- * @LastEditTime: 2023-05-09 16:21:11
+ * @LastEditTime: 2023-05-09 16:52:16
 -->
 <script setup lang="ts">
 import { ref } from 'vue';
@@ -39,8 +39,12 @@ const add = () => {
 	<p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .read-the-docs {
 	color: #888;
+
+	.box {
+		color: #ccc;
+	}
 }
 </style>

@@ -1,7 +1,7 @@
 /*
  * @Description:
  * @Date: 2023-05-09 16:06:50
- * @LastEditTime: 2023-05-09 16:18:12
+ * @LastEditTime: 2023-05-09 16:29:07
  */
 module.exports = {
 	// 继承的规则
